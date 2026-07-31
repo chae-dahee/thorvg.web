@@ -51,6 +51,7 @@ import { effectDropShadowExample } from './effect-drop-shadow';
 import { sceneEffectsExample } from './scene-effects';
 import { errorHandlingExample } from './error-handling';
 import { accessorExample } from './accessor';
+import { canvasResizeExample } from './canvas-resize';
 
 export * from './types';
 
@@ -83,6 +84,7 @@ export const showcaseExamples: ShowcaseExample[] = [
   accessorExample,
   blendingExample,
   boundingBoxExample,
+  canvasResizeExample,
   clippingExample,
   duplicateExample,
   effectDropShadowExample,
