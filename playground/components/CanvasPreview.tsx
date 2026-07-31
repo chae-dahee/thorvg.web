@@ -185,6 +185,9 @@ export default function CanvasPreview({ code, autoRun = true, useDarkCanvas = fa
         animationIdRef.current = null;
       }
 
+      // Restore the default canvas size in case a previous example resized it
+      canvas.resize(600, 600);
+
       // Clear the canvas
       canvas.clear();
 
